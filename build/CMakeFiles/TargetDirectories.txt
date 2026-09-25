@@ -1,0 +1,5 @@
+/home/v/projects/запуск проектов опенкода по кнопке/build/CMakeFiles/opencode-launcher.dir
+/home/v/projects/запуск проектов опенкода по кнопке/build/CMakeFiles/edit_cache.dir
+/home/v/projects/запуск проектов опенкода по кнопке/build/CMakeFiles/rebuild_cache.dir
+/home/v/projects/запуск проектов опенкода по кнопке/build/CMakeFiles/opencode-launcher_autogen_timestamp_deps.dir
+/home/v/projects/запуск проектов опенкода по кнопке/build/CMakeFiles/opencode-launcher_autogen.dir
