@@ -196,6 +196,25 @@ int main(int argc, char *argv[])
     topBar->addWidget(sortBox, 1);
     outerLayout->addLayout(topBar);
 
+    // Переключатель движка запуска v1/v2 с памятью (QSettings).
+    int engineMode = settings.value(QStringLiteral("engineMode"), kEngineV2).toInt();
+    engineMode = qBound(kEngineV1, engineMode, kEngineV2);
+
+    auto *modeButton = new QPushButton(&window);
+    modeButton->setMinimumHeight(36);
+    auto updateModeText = [&]() {
+        modeButton->setText(engineMode == kEngineV2
+            ? QStringLiteral("Движок: oc2 v2")
+            : QStringLiteral("Движок: opencode v1"));
+    };
+    updateModeText();
+    outerLayout->addWidget(modeButton);
+    QObject::connect(modeButton, &QPushButton::clicked, [&]() {
+        engineMode = (engineMode == kEngineV2) ? kEngineV1 : kEngineV2;
+        settings.setValue(QStringLiteral("engineMode"), engineMode);
+        updateModeText();
+    });
+
     auto *scrollArea = new QScrollArea(&window);
     scrollArea->setWidgetResizable(true);
 
