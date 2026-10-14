@@ -1,5 +1,6 @@
 // opencode-launcher — сканирует /home/v/projects/ и по клику на кнопку
-// запускает Konsole в соответствующей папке проекта с opencode внутри.
+// запускает Konsole в соответствующей папке проекта с opencode внутри
+// (переключатель движка: opencode v1 либо oc2 v2).
 //
 // Сборка (Qt5 или Qt6, любой из установленных):
 //   mkdir build && cd build && cmake .. && make
