@@ -68,9 +68,20 @@ static QString findAvailableTerminal()
     return QString();
 }
 
-// Собирает команду вида: export VAR=1; cd <path>; <opencode> <args>; exec bash
-static QString buildShellCommand(const QString &projectPath)
+// Режимы движка: 0 — opencode v1, 1 — oc2 v2.
+static const int kEngineV1 = 0;
+static const int kEngineV2 = 1;
+
+// Собирает команду запуска:
+// v1: export ...; cd <path> && <opencode> <args>; exec bash
+// v2: cd <path> && oc2-check && oc2 --standalone; exec bash
+static QString buildShellCommand(const QString &projectPath, int engineMode)
 {
+    if (engineMode == kEngineV2) {
+        const QString q = QStringLiteral("'%1'").arg(QString(projectPath).replace("'", "'\\''"));
+        return QStringLiteral("cd %1 && oc2-check && oc2 --standalone; exec bash").arg(q);
+    }
+
     QStringList parts;
     for (const QString &env : kExtraEnv)
         parts << QStringLiteral("export %1;").arg(env);
@@ -95,7 +106,7 @@ static QString buildShellCommand(const QString &projectPath)
 }
 
 // Запускает выбранный терминал в указанной папке проекта с opencode внутри.
-static bool launchOpencodeForProject(const QString &projectPath, QWidget *parentForErrors)
+static bool launchOpencodeForProject(const QString &projectPath, QWidget *parentForErrors, int engineMode)
 {
     const QString terminal = findAvailableTerminal();
     if (terminal.isEmpty()) {
@@ -104,14 +115,22 @@ static bool launchOpencodeForProject(const QString &projectPath, QWidget *parent
         return false;
     }
 
-    if (!QFileInfo::exists(kOpencodeBinary)) {
+    if (engineMode == kEngineV2) {
+        if (QStandardPaths::findExecutable(QStringLiteral("oc2")).isEmpty()
+            || QStandardPaths::findExecutable(QStringLiteral("oc2-check")).isEmpty()) {
+            QMessageBox::warning(parentForErrors, QObject::tr("Предупреждение"),
+                QObject::tr("oc2 или oc2-check не найдены в PATH.\n"
+                            "Проверьте установку OpenCode v2."));
+            // не прерываем — вдруг PATH в GUI-сессии отличается
+        }
+    } else if (!QFileInfo::exists(kOpencodeBinary)) {
         QMessageBox::warning(parentForErrors, QObject::tr("Предупреждение"),
             QObject::tr("Бинарник opencode не найден по пути:\n%1\n"
                         "Проверьте путь в исходнике (kOpencodeBinary).").arg(kOpencodeBinary));
         // не прерываем — вдруг путь просто отличается на другой машине
     }
 
-    const QString shellCmd = buildShellCommand(projectPath);
+    const QString shellCmd = buildShellCommand(projectPath, engineMode);
 
     QStringList args;
     if (terminal == QStringLiteral("konsole")) {
