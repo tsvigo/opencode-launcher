@@ -66,8 +66,8 @@ include CMakeFiles/opencode-launcher_autogen_timestamp_deps.dir/compiler_depend.
 # Include the progress variables for this target.
 include CMakeFiles/opencode-launcher_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/opencode-launcher_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
-CMakeFiles/opencode-launcher_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
+CMakeFiles/opencode-launcher_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
+CMakeFiles/opencode-launcher_autogen_timestamp_deps: /usr/lib/qt5/bin/moc
 
 opencode-launcher_autogen_timestamp_deps: CMakeFiles/opencode-launcher_autogen_timestamp_deps
 opencode-launcher_autogen_timestamp_deps: CMakeFiles/opencode-launcher_autogen_timestamp_deps.dir/build.make

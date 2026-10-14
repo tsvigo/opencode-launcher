@@ -69,7 +69,7 @@ include CMakeFiles/opencode-launcher.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/opencode-launcher.dir/flags.make
 
-opencode-launcher_autogen/timestamp: /usr/lib/qt6/libexec/moc
+opencode-launcher_autogen/timestamp: /usr/lib/qt5/bin/moc
 opencode-launcher_autogen/timestamp: CMakeFiles/opencode-launcher.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/v/projects/запуск проектов опенкода по кнопке/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target opencode-launcher"
 	/usr/bin/cmake -E cmake_autogen "/home/v/projects/запуск проектов опенкода по кнопке/build/CMakeFiles/opencode-launcher_autogen.dir/AutogenInfo.json" ""
@@ -114,11 +114,9 @@ opencode__launcher_EXTERNAL_OBJECTS =
 opencode-launcher: CMakeFiles/opencode-launcher.dir/opencode-launcher_autogen/mocs_compilation.cpp.o
 opencode-launcher: CMakeFiles/opencode-launcher.dir/main.cpp.o
 opencode-launcher: CMakeFiles/opencode-launcher.dir/build.make
-opencode-launcher: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
-opencode-launcher: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
-opencode-launcher: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
-opencode-launcher: /usr/lib/x86_64-linux-gnu/libGLX.so
-opencode-launcher: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+opencode-launcher: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
+opencode-launcher: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
+opencode-launcher: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
 opencode-launcher: CMakeFiles/opencode-launcher.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/v/projects/запуск проектов опенкода по кнопке/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable opencode-launcher"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencode-launcher.dir/link.txt --verbose=$(VERBOSE)

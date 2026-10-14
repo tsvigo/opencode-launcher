@@ -68,7 +68,7 @@ include CMakeFiles/opencode-launcher_autogen.dir/progress.make
 
 CMakeFiles/opencode-launcher_autogen: opencode-launcher_autogen/timestamp
 
-opencode-launcher_autogen/timestamp: /usr/lib/qt6/libexec/moc
+opencode-launcher_autogen/timestamp: /usr/lib/qt5/bin/moc
 opencode-launcher_autogen/timestamp: CMakeFiles/opencode-launcher_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/v/projects/запуск проектов опенкода по кнопке/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target opencode-launcher"
 	/usr/bin/cmake -E cmake_autogen "/home/v/projects/запуск проектов опенкода по кнопке/build/CMakeFiles/opencode-launcher_autogen.dir/AutogenInfo.json" ""
