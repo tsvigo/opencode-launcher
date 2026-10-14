@@ -301,10 +301,10 @@ int main(int argc, char *argv[])
             maxTextPx = qMax(maxTextPx, button->fontMetrics().horizontalAdvance(btnText));
 
             QObject::connect(button, &QPushButton::clicked,
-                [fullPath, name, &window, &settings, &rebuild, &sortMode]() {
+                [fullPath, name, &window, &settings, &rebuild, &sortMode, &engineMode]() {
                     const int c = settings.value(QStringLiteral("usage/%1").arg(name), 0).toInt();
                     settings.setValue(QStringLiteral("usage/%1").arg(name), c + 1);
-                    launchOpencodeForProject(fullPath, &window);
+                    launchOpencodeForProject(fullPath, &window, engineMode);
                     // В режиме «по частоте» сразу перестраиваем список,
                     // чтобы порядок отражал новый счётчик.
                     if (sortMode == 2)
