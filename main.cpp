@@ -68,9 +68,10 @@ static QString findAvailableTerminal()
     return QString();
 }
 
-// Режимы движка: 0 — opencode v1, 1 — oc2 v2.
+// Режимы движка: 0 — opencode v1, 1 — oc2 v2 (--standalone), 2 — oc2 v2 (без --standalone).
 static const int kEngineV1 = 0;
 static const int kEngineV2 = 1;
+static const int kEngineV3 = 2;
 
 // Собирает команду запуска:
 // v1: export ...; cd <path> && <opencode> <args>; exec bash
