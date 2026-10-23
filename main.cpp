@@ -73,6 +73,10 @@ static const int kEngineV1 = 0;
 static const int kEngineV2 = 1;
 static const int kEngineV3 = 2;
 
+// Пути к oc2 v2.
+static const QString kOc2Binary = QStringLiteral("/home/v/.local/bin/oc2");
+static const QString kOc2CheckBinary = QStringLiteral("/home/v/.local/bin/oc2-check");
+
 // Собирает команду запуска:
 // v1: export ...; cd <path> && <opencode> <args>; exec bash
 // v2: cd <path> && oc2-check && oc2 --standalone; exec bash
