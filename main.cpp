@@ -197,21 +197,26 @@ int main(int argc, char *argv[])
     topBar->addWidget(sortBox, 1);
     outerLayout->addLayout(topBar);
 
-    // Переключатель движка запуска v1/v2 с памятью (QSettings).
-    int engineMode = settings.value(QStringLiteral("engineMode"), kEngineV2).toInt();
-    engineMode = qBound(kEngineV1, engineMode, kEngineV2);
+    // Переключатель движка запуска v1/v2/v3 с памятью (QSettings).
+    int engineMode = settings.value(QStringLiteral("engineMode"), kEngineV3).toInt();
+    engineMode = qBound(kEngineV1, engineMode, kEngineV3);
 
     auto *modeButton = new QPushButton(&window);
     modeButton->setMinimumHeight(36);
     auto updateModeText = [&]() {
-        modeButton->setText(engineMode == kEngineV2
-            ? QStringLiteral("Движок: oc2 v2")
-            : QStringLiteral("Движок: opencode v1"));
+        if (engineMode == kEngineV2)
+            modeButton->setText(QStringLiteral("Движок: oc2 v2 (--standalone)"));
+        else if (engineMode == kEngineV3)
+            modeButton->setText(QStringLiteral("Движок: oc2 v2"));
+        else
+            modeButton->setText(QStringLiteral("Движок: opencode v1"));
     };
     updateModeText();
     outerLayout->addWidget(modeButton);
     QObject::connect(modeButton, &QPushButton::clicked, [&]() {
-        engineMode = (engineMode == kEngineV2) ? kEngineV1 : kEngineV2;
+        engineMode = (engineMode == kEngineV3) ? kEngineV1
+                     : (engineMode == kEngineV1) ? kEngineV2
+                                                 : kEngineV3;
         settings.setValue(QStringLiteral("engineMode"), engineMode);
         updateModeText();
     });
