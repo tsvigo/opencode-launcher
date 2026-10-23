@@ -120,13 +120,12 @@ static bool launchOpencodeForProject(const QString &projectPath, QWidget *parent
         return false;
     }
 
-    if (engineMode == kEngineV2) {
-        if (QStandardPaths::findExecutable(QStringLiteral("oc2")).isEmpty()
-            || QStandardPaths::findExecutable(QStringLiteral("oc2-check")).isEmpty()) {
+    if (engineMode == kEngineV2 || engineMode == kEngineV3) {
+        if (!QFileInfo::exists(kOc2Binary) || !QFileInfo::exists(kOc2CheckBinary)) {
             QMessageBox::warning(parentForErrors, QObject::tr("Предупреждение"),
-                QObject::tr("oc2 или oc2-check не найдены в PATH.\n"
-                            "Проверьте установку OpenCode v2."));
-            // не прерываем — вдруг PATH в GUI-сессии отличается
+                QObject::tr("oc2 или oc2-check не найдены по путям:\n%1\n%2\n"
+                            "Проверьте установку OpenCode v2.").arg(kOc2Binary, kOc2CheckBinary));
+            // не прерываем — вдруг путь просто отличается на другой машине
         }
     } else if (!QFileInfo::exists(kOpencodeBinary)) {
         QMessageBox::warning(parentForErrors, QObject::tr("Предупреждение"),
