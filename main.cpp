@@ -82,9 +82,14 @@ static const QString kOc2CheckBinary = QStringLiteral("/home/v/.local/bin/oc2-ch
 // v2: cd <path> && oc2-check && oc2 --standalone; exec bash
 static QString buildShellCommand(const QString &projectPath, int engineMode)
 {
+    const QString q = QStringLiteral("'%1'").arg(QString(projectPath).replace("'", "'\\''"));
     if (engineMode == kEngineV2) {
-        const QString q = QStringLiteral("'%1'").arg(QString(projectPath).replace("'", "'\\''"));
-        return QStringLiteral("cd %1 && oc2-check && oc2 --standalone; exec bash").arg(q);
+        return QStringLiteral("cd %1 && %2 && %3 --standalone; exec bash")
+            .arg(q, kOc2CheckBinary, kOc2Binary);
+    }
+    if (engineMode == kEngineV3) {
+        return QStringLiteral("cd %1 && %2 && %3; exec bash")
+            .arg(q, kOc2CheckBinary, kOc2Binary);
     }
 
     QStringList parts;
