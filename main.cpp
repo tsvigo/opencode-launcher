@@ -352,22 +352,13 @@ int main(int argc, char *argv[])
             return;
         }
 
-        // Фильтр: каждый введённый через пробел ищется отдельно (без учёта
-        // регистра), совпают все — кнопка остаётся. Позиция слова в названии
-        // не важна; так «проектов кнопка» найдёт «запуск проектов опенкода по кнопке».
+        // Фильтр: каждое введённое слово ищется отдельно в любой позиции,
+        // окончания не важны (грубый стеммер) — см. nameMatchesFilter().
         const QString filter = searchEdit->text().trimmed();
-        const QStringList words = filter.split(QLatin1Char(' '), Qt::SkipEmptyParts);
         QStringList names;
         names.reserve(allNames.size());
         for (const QString &n : allNames) {
-            bool matched = true;
-            for (const QString &w : words) {
-                if (!n.contains(w, Qt::CaseInsensitive)) {
-                    matched = false;
-                    break;
-                }
-            }
-            if (matched)
+            if (nameMatchesFilter(n, filter))
                 names << n;
         }
 
