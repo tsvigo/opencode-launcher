@@ -22,6 +22,7 @@
 #include <QScreen>
 #include <QFontMetrics>
 #include <QComboBox>
+#include <QLineEdit>
 #include <QHBoxLayout>
 #include <QSettings>
 #include <QDateTime>
