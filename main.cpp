@@ -81,6 +81,7 @@ static const QStringList kRuEndings = {
     QStringLiteral("ыми"), QStringLiteral("ими"),
     QStringLiteral("иях"), QStringLiteral("иям"),
     QStringLiteral("ов"), QStringLiteral("ев"),
+    QStringLiteral("ок"), QStringLiteral("ек"),
     QStringLiteral("ый"), QStringLiteral("ий"),
     QStringLiteral("ая"), QStringLiteral("яя"),
     QStringLiteral("ое"), QStringLiteral("ее"),
