@@ -256,12 +256,29 @@ int main(int argc, char *argv[])
             delete child;
         }
 
-        QStringList names = projectsDir.entryList(
+        QStringList allNames = projectsDir.entryList(
             QDir::Dirs | QDir::NoDotAndDotDot, QDir::NoSort);
+
+        if (allNames.isEmpty()) {
+            auto *label = new QLabel(
+                QStringLiteral("В %1 не найдено ни одной папки.").arg(kProjectsRoot), listWidget);
+            label->setWordWrap(true);
+            listLayout->addWidget(label);
+            return;
+        }
+
+        // Фильтр по введённому тексту (без учёта регистра).
+        const QString filter = searchEdit->text().trimmed();
+        QStringList names;
+        names.reserve(allNames.size());
+        for (const QString &n : allNames) {
+            if (filter.isEmpty() || n.contains(filter, Qt::CaseInsensitive))
+                names << n;
+        }
 
         if (names.isEmpty()) {
             auto *label = new QLabel(
-                QStringLiteral("В %1 не найдено ни одной папки.").arg(kProjectsRoot), listWidget);
+                QStringLiteral("Ничего не найдено по запросу «%1».").arg(filter), listWidget);
             label->setWordWrap(true);
             listLayout->addWidget(label);
             return;
