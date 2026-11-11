@@ -46,86 +46,24 @@
  /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake
  /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake
  /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake
- /usr/share/cmake-4.2/Modules/CMakeCXXCompiler.cmake.in
- /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
  /usr/share/cmake-4.2/Modules/CMakeCXXInformation.cmake
  /usr/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake
- /usr/share/cmake-4.2/Modules/CMakeCompilerIdDetection.cmake
- /usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake
- /usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake
- /usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake
- /usr/share/cmake-4.2/Modules/CMakeDetermineCompilerSupport.cmake
- /usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake
- /usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake
  /usr/share/cmake-4.2/Modules/CMakeGenericSystem.cmake
  /usr/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake
  /usr/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake
  /usr/share/cmake-4.2/Modules/CMakeParseArguments.cmake
- /usr/share/cmake-4.2/Modules/CMakeParseImplicitIncludeInfo.cmake
- /usr/share/cmake-4.2/Modules/CMakeParseImplicitLinkInfo.cmake
- /usr/share/cmake-4.2/Modules/CMakeParseLibraryArchitecture.cmake
- /usr/share/cmake-4.2/Modules/CMakeSystem.cmake.in
  /usr/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake
  /usr/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake
- /usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake
- /usr/share/cmake-4.2/Modules/CMakeTestCompilerCommon.cmake
- /usr/share/cmake-4.2/Modules/Compiler/ADSP-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/ARMCC-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/ARMClang-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/AppleClang-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/Borland-DetermineCompiler.cmake
  /usr/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake
- /usr/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompilerInternal.cmake
- /usr/share/cmake-4.2/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/Cray-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/CrayClang-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/Diab-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/Embarcadero-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/Fujitsu-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/GHS-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake
  /usr/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake
- /usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake
  /usr/share/cmake-4.2/Modules/Compiler/GNU.cmake
- /usr/share/cmake-4.2/Modules/Compiler/HP-CXX-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/IAR-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake
- /usr/share/cmake-4.2/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/Intel-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/MSVC-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/NVHPC-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/NVIDIA-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/OrangeC-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/PGI-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/PathScale-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/Renesas-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/SCO-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/TI-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/TIClang-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/Tasking-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/Watcom-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/XL-CXX-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake
- /usr/share/cmake-4.2/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake
  /usr/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake
  /usr/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake
- /usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake
- /usr/share/cmake-4.2/Modules/Internal/CMakeInspectCXXLinker.cmake
- /usr/share/cmake-4.2/Modules/Internal/FeatureTesting.cmake
  /usr/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake
  /usr/share/cmake-4.2/Modules/Linker/GNU.cmake
  /usr/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake
  /usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-CXX.cmake
  /usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU.cmake
- /usr/share/cmake-4.2/Modules/Platform/Linux-Determine-CXX.cmake
  /usr/share/cmake-4.2/Modules/Platform/Linux-GNU-CXX.cmake
  /usr/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake
  /usr/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake
@@ -485,6 +423,7 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
@@ -492,6 +431,9 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qscreen.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
@@ -501,6 +443,7 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QScrollArea
@@ -520,6 +463,7 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h
@@ -546,4 +490,52 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o
 CMakeFiles/opencode-launcher.dir/opencode-launcher_autogen/mocs_compilation.cpp.o
  /home/v/projects/запуск проектов опенкода по кнопке/build/opencode-launcher_autogen/mocs_compilation.cpp
  /usr/include/stdc-predef.h
+
+opencode-launcher
+ /lib64/ld-linux-x86-64.so.2
+ /usr/lib/x86_64-linux-gnu/Scrt1.o
+ /usr/lib/x86_64-linux-gnu/crti.o
+ /usr/lib/x86_64-linux-gnu/crtn.o
+ /usr/lib/x86_64-linux-gnu/libc.so
+ /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+ /usr/lib/x86_64-linux-gnu/libm.so
+ /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+ /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o
+ /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a
+ /usr/lib/gcc/x86_64-linux-gnu/13/libgcc_s.so
+ /usr/lib/gcc/x86_64-linux-gnu/13/libstdc++.so
+ /usr/lib/x86_64-linux-gnu/libGL.so.1
+ /usr/lib/x86_64-linux-gnu/libGLX.so.0
+ /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0
+ /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
+ /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
+ /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
+ /usr/lib/x86_64-linux-gnu/libX11.so.6
+ /usr/lib/x86_64-linux-gnu/libXau.so.6
+ /usr/lib/x86_64-linux-gnu/libXdmcp.so.6
+ /usr/lib/x86_64-linux-gnu/libatomic.so.1
+ /usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1
+ /usr/lib/x86_64-linux-gnu/libbrotlidec.so.1
+ /usr/lib/x86_64-linux-gnu/libbz2.so.1.0
+ /usr/lib/x86_64-linux-gnu/libc.so.6
+ /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+ /usr/lib/x86_64-linux-gnu/libdouble-conversion.so.3
+ /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+ /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+ /usr/lib/x86_64-linux-gnu/libgraphite2.so.3
+ /usr/lib/x86_64-linux-gnu/libharfbuzz.so.0
+ /usr/lib/x86_64-linux-gnu/libicudata.so.74
+ /usr/lib/x86_64-linux-gnu/libicui18n.so.74
+ /usr/lib/x86_64-linux-gnu/libicuuc.so.74
+ /usr/lib/x86_64-linux-gnu/libm.so.6
+ /usr/lib/x86_64-linux-gnu/libmd4c.so.0
+ /usr/lib/x86_64-linux-gnu/libmvec.so.1
+ /usr/lib/x86_64-linux-gnu/libpcre2-16.so.0
+ /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0
+ /usr/lib/x86_64-linux-gnu/libpng16.so.16
+ /usr/lib/x86_64-linux-gnu/libxcb.so.1
+ /usr/lib/x86_64-linux-gnu/libz.so.1
+ /usr/lib/x86_64-linux-gnu/libzstd.so.1
+ /home/v/projects/запуск проектов опенкода по кнопке/build/CMakeFiles/opencode-launcher.dir/main.cpp.o
+ /home/v/projects/запуск проектов опенкода по кнопке/build/CMakeFiles/opencode-launcher.dir/opencode-launcher_autogen/mocs_compilation.cpp.o
 

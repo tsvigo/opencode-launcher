@@ -45,86 +45,24 @@ opencode-launcher_autogen/timestamp: /home/v/projects/запуск\ проект
   /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeCXXCompiler.cmake.in \
-  /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp \
   /usr/share/cmake-4.2/Modules/CMakeCXXInformation.cmake \
   /usr/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeCompilerIdDetection.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeDetermineCompilerSupport.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake \
   /usr/share/cmake-4.2/Modules/CMakeGenericSystem.cmake \
   /usr/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake \
   /usr/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake \
   /usr/share/cmake-4.2/Modules/CMakeParseArguments.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeParseImplicitIncludeInfo.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeParseImplicitLinkInfo.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeParseLibraryArchitecture.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeSystem.cmake.in \
   /usr/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeTestCompilerCommon.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Borland-DetermineCompiler.cmake \
   /usr/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Cray-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Diab-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/GHS-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /usr/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake \
   /usr/share/cmake-4.2/Modules/Compiler/GNU.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/IAR-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Intel-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/PGI-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Renesas-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/SCO-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/TI-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/TIClang-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /usr/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake \
   /usr/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake \
-  /usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake \
-  /usr/share/cmake-4.2/Modules/Internal/CMakeInspectCXXLinker.cmake \
-  /usr/share/cmake-4.2/Modules/Internal/FeatureTesting.cmake \
   /usr/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake \
   /usr/share/cmake-4.2/Modules/Linker/GNU.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-CXX.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU.cmake \
-  /usr/share/cmake-4.2/Modules/Platform/Linux-Determine-CXX.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linux-GNU-CXX.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake \
@@ -483,6 +421,7 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o: /home/v/projects/запуск\ пр
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
@@ -490,6 +429,9 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o: /home/v/projects/запуск\ пр
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qscreen.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
@@ -499,6 +441,7 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o: /home/v/projects/запуск\ пр
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QScrollArea \
@@ -518,6 +461,7 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o: /home/v/projects/запуск\ пр
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h \
@@ -544,6 +488,101 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o: /home/v/projects/запуск\ пр
 CMakeFiles/opencode-launcher.dir/opencode-launcher_autogen/mocs_compilation.cpp.o: opencode-launcher_autogen/mocs_compilation.cpp \
   /usr/include/stdc-predef.h
 
+opencode-launcher: /lib64/ld-linux-x86-64.so.2 \
+  /usr/lib/x86_64-linux-gnu/Scrt1.o \
+  /usr/lib/x86_64-linux-gnu/crti.o \
+  /usr/lib/x86_64-linux-gnu/crtn.o \
+  /usr/lib/x86_64-linux-gnu/libc.so \
+  /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 \
+  /usr/lib/x86_64-linux-gnu/libm.so \
+  /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o \
+  /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o \
+  /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a \
+  /usr/lib/gcc/x86_64-linux-gnu/13/libgcc_s.so \
+  /usr/lib/gcc/x86_64-linux-gnu/13/libstdc++.so \
+  /usr/lib/x86_64-linux-gnu/libGL.so.1 \
+  /usr/lib/x86_64-linux-gnu/libGLX.so.0 \
+  /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0 \
+  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 \
+  /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13 \
+  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 \
+  /usr/lib/x86_64-linux-gnu/libX11.so.6 \
+  /usr/lib/x86_64-linux-gnu/libXau.so.6 \
+  /usr/lib/x86_64-linux-gnu/libXdmcp.so.6 \
+  /usr/lib/x86_64-linux-gnu/libatomic.so.1 \
+  /usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1 \
+  /usr/lib/x86_64-linux-gnu/libbrotlidec.so.1 \
+  /usr/lib/x86_64-linux-gnu/libbz2.so.1.0 \
+  /usr/lib/x86_64-linux-gnu/libc.so.6 \
+  /usr/lib/x86_64-linux-gnu/libc_nonshared.a \
+  /usr/lib/x86_64-linux-gnu/libdouble-conversion.so.3 \
+  /usr/lib/x86_64-linux-gnu/libfreetype.so.6 \
+  /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0 \
+  /usr/lib/x86_64-linux-gnu/libgraphite2.so.3 \
+  /usr/lib/x86_64-linux-gnu/libharfbuzz.so.0 \
+  /usr/lib/x86_64-linux-gnu/libicudata.so.74 \
+  /usr/lib/x86_64-linux-gnu/libicui18n.so.74 \
+  /usr/lib/x86_64-linux-gnu/libicuuc.so.74 \
+  /usr/lib/x86_64-linux-gnu/libm.so.6 \
+  /usr/lib/x86_64-linux-gnu/libmd4c.so.0 \
+  /usr/lib/x86_64-linux-gnu/libmvec.so.1 \
+  /usr/lib/x86_64-linux-gnu/libpcre2-16.so.0 \
+  /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0 \
+  /usr/lib/x86_64-linux-gnu/libpng16.so.16 \
+  /usr/lib/x86_64-linux-gnu/libxcb.so.1 \
+  /usr/lib/x86_64-linux-gnu/libz.so.1 \
+  /usr/lib/x86_64-linux-gnu/libzstd.so.1 \
+  CMakeFiles/opencode-launcher.dir/main.cpp.o \
+  CMakeFiles/opencode-launcher.dir/opencode-launcher_autogen/mocs_compilation.cpp.o
+
+
+/usr/lib/x86_64-linux-gnu/libmd4c.so.0:
+
+/usr/lib/x86_64-linux-gnu/libicui18n.so.74:
+
+/usr/lib/x86_64-linux-gnu/libicudata.so.74:
+
+/usr/lib/x86_64-linux-gnu/libgraphite2.so.3:
+
+/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0:
+
+/usr/lib/x86_64-linux-gnu/libfreetype.so.6:
+
+/usr/lib/x86_64-linux-gnu/libbz2.so.1.0:
+
+/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1:
+
+/usr/lib/x86_64-linux-gnu/libXau.so.6:
+
+/usr/lib/x86_64-linux-gnu/libX11.so.6:
+
+/usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13:
+
+/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13:
+
+/usr/lib/x86_64-linux-gnu/libGLdispatch.so.0:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/libstdc++.so:
+
+/usr/lib/x86_64-linux-gnu/libzstd.so.1:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/libgcc_s.so:
+
+/usr/lib/x86_64-linux-gnu/libz.so.1:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o:
+
+/usr/lib/x86_64-linux-gnu/libc.so.6:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o:
+
+/usr/lib/x86_64-linux-gnu/libgcc_s.so.1:
+
+/usr/lib/x86_64-linux-gnu/libc.so:
+
+/usr/lib/x86_64-linux-gnu/crti.o:
+
+/usr/lib/x86_64-linux-gnu/Scrt1.o:
 
 opencode-launcher_autogen/mocs_compilation.cpp:
 
@@ -551,17 +590,31 @@ opencode-launcher_autogen/mocs_compilation.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
 
+/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0:
+
 /usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:
 
+/usr/lib/x86_64-linux-gnu/libpcre2-16.so.0:
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:
+
+/usr/lib/x86_64-linux-gnu/libc_nonshared.a:
+
+/usr/lib/x86_64-linux-gnu/libXdmcp.so.6:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h:
 
@@ -571,6 +624,8 @@ opencode-launcher_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:
 
+/usr/lib/x86_64-linux-gnu/libmvec.so.1:
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h:
@@ -578,6 +633,8 @@ opencode-launcher_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QScrollArea:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout:
 
@@ -587,11 +644,19 @@ opencode-launcher_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h:
+
+/usr/lib/x86_64-linux-gnu/libGLX.so.0:
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h:
 
@@ -615,7 +680,11 @@ opencode-launcher_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h:
 
@@ -627,9 +696,17 @@ opencode-launcher_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/QScreen:
 
@@ -641,11 +718,17 @@ opencode-launcher_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h:
 
@@ -665,11 +748,17 @@ opencode-launcher_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h:
 
+/usr/lib/x86_64-linux-gnu/libicuuc.so.74:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h:
 
@@ -680,6 +769,8 @@ opencode-launcher_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h:
+
+/usr/lib/x86_64-linux-gnu/libatomic.so.1:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h:
 
@@ -702,6 +793,8 @@ opencode-launcher_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QList:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileInfo:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QDir:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings:
 
@@ -727,9 +820,19 @@ opencode-launcher_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a:
+
+/usr/lib/x86_64-linux-gnu/crtn.o:
+
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h:
 
@@ -742,6 +845,8 @@ opencode-launcher_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h:
 
@@ -771,9 +876,19 @@ opencode-launcher_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
 
@@ -795,185 +910,97 @@ opencode-launcher_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+/usr/include/c++/13/bits/refwrap.h:
 
-/usr/include/x86_64-linux-gnu/bits/locale.h:
+/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake:
 
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+/usr/include/c++/13/bits/range_access.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h:
+/usr/include/c++/13/bits/ostream_insert.h:
 
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/x86_64-linux-gnu/asm/types.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h:
-
-/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
+/usr/include/c++/13/bits/move.h:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
 /usr/include/time.h:
 
-/usr/include/strings.h:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h:
 
-/usr/include/string.h:
+/usr/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake:
+
+/usr/include/c++/13/clocale:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/c++/13/bits/node_handle.h:
+
+/usr/include/c++/13/bits/functexcept.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/13/bits/localefwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/c++/13/bits/exception_defines.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake:
+
+/usr/include/c++/13/bits/shared_ptr_atomic.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/include/c++/13/bits/stream_iterator.h:
+
+/usr/include/c++/13/bits/hashtable_policy.h:
+
+/usr/include/c++/13/bits/atomic_lockfree_defines.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel:
+
+/usr/include/c++/13/bits/predefined_ops.h:
+
+/usr/include/c++/13/iosfwd:
+
+/usr/include/c++/13/bits/align.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/c++/13/bits/unique_ptr.h:
+
+/usr/include/c++/13/backward/binders.h:
+
+/usr/include/c++/13/atomic:
+
+/usr/include/c++/13/algorithm:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake:
+
+/usr/include/asm-generic/posix_types.h:
 
 /usr/include/stdc-predef.h:
 
-/usr/include/sched.h:
+/usr/lib/x86_64-linux-gnu/libm.so:
 
-/usr/include/locale.h:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h:
 
-/usr/include/linux/stddef.h:
+/usr/include/asm-generic/int-ll64.h:
 
-/usr/include/features.h:
+/usr/include/asm-generic/errno-base.h:
 
-/usr/include/errno.h:
+/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
 
-/usr/include/c++/13/vector:
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
-/usr/include/c++/13/typeinfo:
+/usr/include/asm-generic/types.h:
 
-/usr/include/c++/13/stdlib.h:
-
-/usr/include/c++/13/stdexcept:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/c++/13/ratio:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/c++/13/pstl/glue_numeric_defs.h:
-
-/usr/include/c++/13/pstl/glue_algorithm_defs.h:
-
-/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:
-
-/usr/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h:
-
-/usr/include/linux/types.h:
-
-/home/v/projects/запуск\ проектов\ опенкода\ по\ кнопке/CMakeLists.txt:
-
-/usr/include/c++/13/array:
-
-/usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU.cmake:
-
-/usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-CXX.cmake:
-
-/usr/include/stdlib.h:
-
-/usr/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake:
-
-/usr/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake:
-
-/usr/include/c++/13/bits/cpp_type_traits.h:
-
-/usr/include/c++/13/variant:
-
-/usr/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/share/cmake-4.2/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
-
-/usr/include/c++/13/bits/stl_tempbuf.h:
-
-/usr/share/cmake-4.2/Modules/Compiler/PathScale-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/share/cmake-4.2/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h:
-
-/usr/include/c++/13/bits/alloc_traits.h:
-
-/usr/include/c++/13/bits/concept_check.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/share/cmake-4.2/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Borland-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/IAR-DetermineCompiler.cmake:
-
-/usr/include/c++/13/type_traits:
-
-/usr/share/cmake-4.2/Modules/Compiler/GNU.cmake:
-
-CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
-
-/usr/include/c++/13/functional:
-
-/usr/share/cmake-4.2/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/share/cmake-4.2/Modules/Internal/FeatureTesting.cmake:
-
-/usr/include/linux/errno.h:
-
-/usr/include/c++/13/debug/debug.h:
-
-/usr/share/cmake-4.2/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/PGI-DetermineCompiler.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Intel-DetermineCompiler.cmake:
+/usr/include/asm-generic/bitsperlong.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h:
 
@@ -983,61 +1010,37 @@ CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/13/ext/atomicity.h:
 
-/usr/include/c++/13/pstl/pstl_config.h:
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
-/usr/share/cmake-4.2/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
+/usr/include/c++/13/bits/hashtable.h:
 
-/usr/include/c++/13/bits/functexcept.h:
+/usr/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h:
-
-/usr/share/cmake-4.2/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:
-
-/usr/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake:
+/usr/include/c++/13/array:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:
 
 /usr/share/cmake-4.2/Modules/Platform/Linux-GNU-CXX.cmake:
 
-/usr/share/cmake-4.2/Modules/Compiler/Diab-DetermineCompiler.cmake:
+/usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU.cmake:
 
-/usr/share/cmake-4.2/Modules/Compiler/Cray-DetermineCompiler.cmake:
+/usr/include/c++/13/bits/cpp_type_traits.h:
 
-/usr/share/cmake-4.2/Modules/Compiler/GHS-DetermineCompiler.cmake:
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake:
 
-/usr/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
+/usr/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h:
+/usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-CXX.cmake:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h:
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h:
 
-/usr/share/cmake-4.2/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
+/usr/include/c++/13/bits/basic_string.tcc:
 
-/usr/include/c++/13/bits/localefwd.h:
+/usr/include/c++/13/bits/allocated_ptr.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h:
+/usr/include/c++/13/bit:
 
-/usr/share/cmake-4.2/Modules/CMakeTestCompilerCommon.cmake:
-
-/usr/include/c++/13/bits/invoke.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qscreen.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h:
-
-/usr/share/cmake-4.2/Modules/CMakeParseLibraryArchitecture.cmake:
-
-/usr/include/c++/13/bits/stl_tree.h:
+/usr/include/alloca.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake:
 
@@ -1049,41 +1052,31 @@ CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/13/ext/numeric_traits.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h:
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qscreen.h:
 
-/usr/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake:
 
-/usr/include/c++/13/bits/stl_raw_storage_iter.h:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake:
+/usr/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake:
 
-/usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-/usr/share/cmake-4.2/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
+/usr/include/c++/13/pstl/pstl_config.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake:
 
+/usr/lib/x86_64-linux-gnu/libxcb.so.1:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h:
 
 /usr/include/c++/13/bits/stl_map.h:
 
+/lib64/ld-linux-x86-64.so.2:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h:
-
-/usr/include/stdint.h:
-
-/usr/include/endian.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox:
 
@@ -1095,17 +1088,29 @@ CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h:
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
-/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:
+CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
+
+/usr/include/c++/13/functional:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake:
 
 /usr/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h:
+
+/usr/include/c++/13/bits/alloc_traits.h:
+
+/usr/include/c++/13/bits/concept_check.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake:
+
+CMakeFiles/opencode-launcher.dir/main.cpp.o:
+
+/usr/lib/x86_64-linux-gnu/libdouble-conversion.so.3:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake:
 
@@ -1113,145 +1118,27 @@ CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake:
+/usr/include/c++/13/bits/requires_hosted.h:
 
-/usr/include/c++/13/bits/refwrap.h:
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/c++/13/string_view:
-
-/usr/include/c++/13/map:
-
-/usr/include/ctype.h:
-
-/usr/share/cmake-4.2/Modules/CMakeParseImplicitIncludeInfo.cmake:
-
-/usr/include/features-time64.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake:
-
-/usr/include/c++/13/pstl/execution_defs.h:
-
-/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Renesas-DetermineCompiler.cmake:
+/usr/include/c++/13/bits/cxxabi_forced.h:
 
 /usr/share/cmake-4.2/Modules/Platform/Linux.cmake:
 
+/usr/include/features.h:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QDir:
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
-/usr/share/cmake-4.2/Modules/Platform/Linux-Determine-CXX.cmake:
+/usr/include/asm-generic/errno.h:
 
-/usr/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake:
-
-/usr/include/c++/13/ext/concurrence.h:
-
-/usr/include/c++/13/bits/stl_function.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/c++/13/bits/utility.h:
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake:
 
 /usr/include/c++/13/bits/functional_hash.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h:
-
-/usr/include/c++/13/bits/cxxabi_init_exception.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
-
-/usr/include/pthread.h:
-
-/usr/share/cmake-4.2/Modules/Internal/CMakeInspectCXXLinker.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake:
-
-/usr/include/c++/13/bits/stl_algobase.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/ADSP-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake:
-
-/usr/include/c++/13/bits/memoryfwd.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h:
-
-/usr/share/cmake-4.2/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Watcom-DetermineCompiler.cmake:
-
-/usr/bin/cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/c++/13/cwchar:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/c++/13/string:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake:
-
-/usr/include/c++/13/bits/ostream_insert.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h:
-
-/usr/share/cmake-4.2/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake:
-
-/usr/include/c++/13/ext/aligned_buffer.h:
-
-/usr/share/cmake-4.2/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/asm-generic/types.h:
-
-CMakeFiles/4.2.3/CMakeSystem.cmake:
-
-/usr/include/c++/13/bits/postypes.h:
-
-/usr/include/c++/13/bits/uses_allocator.h:
-
-/usr/share/cmake-4.2/Modules/Compiler/TI-DetermineCompiler.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake:
-
-/usr/include/c++/13/bits/shared_ptr_atomic.h:
-
-/usr/share/cmake-4.2/Modules/CMakeCompilerIdDetection.cmake:
-
-/usr/include/wchar.h:
-
-/usr/include/c++/13/bits/shared_ptr_base.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h:
-
-/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerSupport.cmake:
+/usr/include/errno.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QDateTime:
 
@@ -1259,137 +1146,79 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 
 /usr/include/c++/13/bits/charconv.h:
 
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/c++/13/bits/stl_pair.h:
-
 /usr/include/c++/13/cstdio:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake:
-
-/usr/share/cmake-4.2/Modules/Linker/GNU.cmake:
-
-/usr/include/c++/13/bits/stl_vector.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:
-
-/usr/include/c++/13/bits/exception.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:
-
-/usr/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeCXXCompiler.cmake.in:
-
-/usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h:
-
-/usr/include/c++/13/new:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h:
-
-/usr/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake:
-
-/usr/include/c++/13/clocale:
-
-/usr/share/cmake-4.2/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:
-
-/usr/include/c++/13/ext/alloc_traits.h:
-
-/usr/include/c++/13/list:
-
-/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h:
-
-/usr/share/cmake-4.2/Modules/CMakeGenericSystem.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h:
-
-/usr/share/cmake-4.2/Modules/Platform/UnixPaths.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/SCO-DetermineCompiler.cmake:
-
-/usr/include/alloca.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h:
-
-/usr/include/asm-generic/int-ll64.h:
-
-/usr/include/asm-generic/posix_types.h:
-
-/usr/include/assert.h:
-
-/usr/include/c++/13/algorithm:
-
-/usr/include/c++/13/atomic:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h:
 
 /usr/include/c++/13/backward/auto_ptr.h:
 
-/usr/include/c++/13/backward/binders.h:
+/usr/include/assert.h:
 
-/usr/include/c++/13/bits/allocated_ptr.h:
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake:
 
-/usr/include/c++/13/bit:
+/usr/include/c++/13/bits/memoryfwd.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h:
+/usr/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake:
 
-/usr/share/cmake-4.2/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
+/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake:
 
-/usr/include/c++/13/bits/basic_string.tcc:
+/usr/include/sched.h:
 
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
+/usr/bin/cmake:
 
-/usr/share/cmake-4.2/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
+/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake:
 
-/usr/include/c++/13/bits/algorithmfwd.h:
+/usr/include/c++/13/ext/aligned_buffer.h:
 
-/usr/include/c++/13/bits/align.h:
+/usr/include/locale.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h:
 
-/usr/include/c++/13/bits/unique_ptr.h:
+/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
 
-/usr/include/c++/13/unordered_map:
+CMakeFiles/4.2.3/CMakeSystem.cmake:
 
-/usr/include/c++/13/bits/allocator.h:
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h:
+/usr/include/c++/13/bits/locale_classes.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake:
 
-/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:
+/usr/include/c++/13/bits/postypes.h:
 
-/usr/include/c++/13/bits/stl_bvector.h:
+/usr/include/c++/13/bits/parse_numbers.h:
+
+/usr/include/c++/13/bits/std_abs.h:
+
+/usr/include/c++/13/bits/uses_allocator.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:
+
+/usr/include/c++/13/bits/exception.h:
+
+/usr/include/c++/13/bits/basic_string.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/c++/13/bits/ptr_traits.h:
+
+/usr/lib/x86_64-linux-gnu/libGL.so.1:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake:
+
+/usr/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h:
+
+/usr/share/cmake-4.2/Modules/Platform/UnixPaths.cmake:
 
 /usr/include/c++/13/bits/atomic_base.h:
 
@@ -1401,13 +1230,81 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 
 /usr/include/c++/13/bits/uses_allocator_args.h:
 
-/usr/include/c++/13/bits/atomic_lockfree_defines.h:
+/usr/include/c++/13/bits/algorithmfwd.h:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake:
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-/usr/include/c++/13/bits/basic_string.h:
+/usr/lib/x86_64-linux-gnu/libharfbuzz.so.0:
 
-/usr/include/c++/13/bits/hashtable_policy.h:
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake:
+
+/usr/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:
+
+/usr/include/c++/13/bits/stl_bvector.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h:
+
+/usr/share/cmake-4.2/Modules/CMakeParseArguments.cmake:
+
+/usr/include/c++/13/streambuf:
+
+/usr/include/c++/13/bits/memory_resource.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake:
+
+/usr/include/c++/13/bits/invoke.h:
+
+/usr/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake:
+
+/usr/include/c++/13/bits/stl_algobase.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:
+
+/usr/include/c++/13/bits/cxxabi_init_exception.h:
+
+/usr/include/c++/13/typeinfo:
+
+/usr/include/c++/13/bits/hash_bytes.h:
+
+/usr/share/cmake-4.2/Modules/Linker/GNU.cmake:
+
+/usr/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake:
+
+/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1:
+
+/usr/include/c++/13/ext/concurrence.h:
+
+/usr/include/c++/13/pstl/glue_algorithm_defs.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h:
+
+/usr/share/cmake-4.2/Modules/CMakeGenericSystem.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h:
 
@@ -1417,85 +1314,27 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 
 /usr/include/c++/13/bits/chrono.h:
 
-/usr/include/c++/13/bits/cxxabi_forced.h:
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/QTransform:
+/usr/include/c++/13/bits/stl_raw_storage_iter.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+/usr/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
 
-/usr/include/c++/13/bits/enable_special_members.h:
+/usr/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake:
 
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake:
 
-/usr/include/c++/13/bits/stream_iterator.h:
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/c++/13/bits/exception_defines.h:
-
-/usr/include/c++/13/bits/hash_bytes.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-/usr/include/c++/13/bits/hashtable.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake:
-
-/usr/include/c++/13/bits/locale_classes.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h:
-
-/usr/include/c++/13/streambuf:
-
-/usr/share/cmake-4.2/Modules/Compiler/TIClang-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/MSVC-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeParseArguments.cmake:
-
-/usr/include/c++/13/bits/memory_resource.h:
-
-/usr/include/c++/13/bits/move.h:
-
-/usr/include/c++/13/tuple:
-
-/usr/share/cmake-4.2/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
-
-/usr/include/c++/13/bits/list.tcc:
-
-/usr/include/c++/13/bits/nested_exception.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/c++/13/bits/node_handle.h:
-
-/usr/include/c++/13/bits/std_abs.h:
-
-/usr/include/c++/13/bits/parse_numbers.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel:
-
-/usr/include/c++/13/bits/predefined_ops.h:
-
-/usr/include/c++/13/iosfwd:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h:
-
-/usr/include/linux/posix_types.h:
-
-/usr/include/c++/13/bits/ptr_traits.h:
-
-/usr/include/c++/13/bits/range_access.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/c++/13/bits/requires_hosted.h:
+/usr/include/c++/13/bits/stl_vector.h:
 
 /usr/include/c++/13/bits/shared_ptr.h:
+
+/usr/include/wchar.h:
+
+/usr/include/c++/13/bits/shared_ptr_base.h:
+
+/usr/lib/x86_64-linux-gnu/libpng16.so.16:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h:
 
@@ -1507,31 +1346,19 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 
 /usr/include/c++/13/cstdlib:
 
-/usr/share/cmake-4.2/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
-
 /usr/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake:
 
 /usr/include/c++/13/bits/stl_algo.h:
 
-/usr/share/cmake-4.2/Modules/CMakeSystem.cmake.in:
-
 /usr/include/c++/13/cstddef:
-
-/usr/share/cmake-4.2/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
 
 /usr/include/c++/13/bits/stl_construct.h:
 
-/usr/include/c++/13/utility:
+/usr/include/c++/13/bits/stl_function.h:
 
-/usr/share/cmake-4.2/Modules/CMakeParseImplicitLinkInfo.cmake:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
-/usr/include/c++/13/bits/stl_heap.h:
-
-/usr/include/stdio.h:
-
-/home/v/projects/запуск\ проектов\ опенкода\ по\ кнопке/main.cpp:
-
-/usr/include/c++/13/bits/stl_iterator_base_types.h:
+/usr/include/c++/13/bits/utility.h:
 
 /usr/include/c++/13/bits/erase_if.h:
 
@@ -1545,11 +1372,17 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 
 /usr/include/c++/13/bits/stl_relops.h:
 
+/usr/include/c++/13/bits/stl_tempbuf.h:
+
+/usr/include/c++/13/bits/stl_tree.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h:
 
 /usr/include/c++/13/bits/streambuf.tcc:
 
 /usr/include/c++/13/bits/streambuf_iterator.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
@@ -1565,11 +1398,11 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 
 /usr/include/c++/13/bits/vector.tcc:
 
+/usr/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake:
+
+/usr/include/c++/13/variant:
+
 /usr/include/c++/13/cerrno:
-
-/usr/include/linux/sched/types.h:
-
-/usr/include/c++/13/chrono:
 
 /usr/include/c++/13/system_error:
 
@@ -1577,11 +1410,25 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 
 /usr/include/c++/13/ctime:
 
-/usr/include/c++/13/pstl/glue_memory_defs.h:
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
-/usr/share/cmake-4.2/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
+/usr/include/c++/13/cwchar:
 
-/usr/include/c++/13/exception:
+/usr/include/linux/errno.h:
+
+/usr/include/c++/13/debug/debug.h:
+
+/usr/include/c++/13/bits/stl_pair.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/c++/13/list:
+
+/usr/include/c++/13/ext/alloc_traits.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h:
+
+/usr/include/c++/13/new:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h:
 
@@ -1589,15 +1436,7 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 
 /usr/include/c++/13/ext/type_traits.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:
-
-/usr/include/limits.h:
-
-/usr/include/c++/13/initializer_list:
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h:
-
-/usr/share/cmake-4.2/Modules/Compiler/Tasking-DetermineCompiler.cmake:
 
 /usr/include/c++/13/bits/ios_base.h:
 
@@ -1615,8 +1454,140 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 
 /usr/include/c++/13/memory:
 
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h:
 
 /usr/include/c++/13/numeric:
+
+/usr/include/c++/13/pstl/execution_defs.h:
+
+/usr/include/linux/stddef.h:
+
+/usr/include/c++/13/exception:
+
+/usr/include/c++/13/pstl/glue_memory_defs.h:
+
+/usr/include/strings.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/c++/13/pstl/glue_numeric_defs.h:
+
+/usr/include/c++/13/stdexcept:
+
+/usr/include/c++/13/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake:
+
+/usr/include/c++/13/string:
+
+/usr/include/c++/13/map:
+
+/usr/include/c++/13/string_view:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake:
+
+/usr/include/features-time64.h:
+
+/usr/include/c++/13/bits/nested_exception.h:
+
+/usr/include/c++/13/bits/list.tcc:
+
+/usr/include/c++/13/tuple:
+
+/usr/share/cmake-4.2/Modules/Compiler/GNU.cmake:
+
+/usr/include/c++/13/type_traits:
+
+/usr/include/c++/13/bits/allocator.h:
+
+/usr/include/c++/13/unordered_map:
+
+/usr/include/c++/13/bits/stl_heap.h:
+
+/usr/include/c++/13/utility:
+
+/usr/include/c++/13/vector:
+
+/usr/include/ctype.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:
+
+/usr/include/c++/13/initializer_list:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h:
+
+/usr/include/c++/13/ratio:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake:
+
+/usr/include/endian.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QTransform:
+
+/usr/include/c++/13/bits/enable_special_members.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/c++/13/chrono:
+
+/usr/include/linux/sched/types.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h:
+
+/home/v/projects/запуск\ проектов\ опенкода\ по\ кнопке/CMakeLists.txt:
+
+/usr/include/linux/types.h:
+
+/usr/include/pthread.h:
+
+/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13:
+
+/home/v/projects/запуск\ проектов\ опенкода\ по\ кнопке/main.cpp:
+
+/usr/include/c++/13/bits/stl_iterator_base_types.h:
+
+/usr/include/stdio.h:
+
+/usr/include/string.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types.h:
+
+/usr/include/x86_64-linux-gnu/asm/types.h:
+
+CMakeFiles/opencode-launcher.dir/opencode-launcher_autogen/mocs_compilation.cpp.o:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/lib/x86_64-linux-gnu/libm.so.6:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
