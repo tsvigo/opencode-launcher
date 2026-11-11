@@ -69,6 +69,91 @@ static QString findAvailableTerminal()
     return QString();
 }
 
+// ---------------------------------------------------------------------
+// Терпимость к окончаниям: грубый стеммер русского языка.
+// Отрезает одно самое длинное подходящее окончание, оставляя стем длиной ≥ 3,
+// чтобы «кнопка» и «кнопке» давали одинаковый стем «кнопк».
+// ---------------------------------------------------------------------
+
+static const QStringList kRuEndings = {
+    QStringLiteral("иями"), QStringLiteral("ами"), QStringLiteral("ями"),
+    QStringLiteral("ого"), QStringLiteral("ему"), QStringLiteral("ому"),
+    QStringLiteral("ыми"), QStringLiteral("ими"),
+    QStringLiteral("иях"), QStringLiteral("иям"),
+    QStringLiteral("ов"), QStringLiteral("ев"),
+    QStringLiteral("ый"), QStringLiteral("ий"),
+    QStringLiteral("ая"), QStringLiteral("яя"),
+    QStringLiteral("ое"), QStringLiteral("ее"),
+    QStringLiteral("ые"), QStringLiteral("ие"),
+    QStringLiteral("ой"), QStringLiteral("ей"),
+    QStringLiteral("ам"), QStringLiteral("ям"),
+    QStringLiteral("ах"), QStringLiteral("ях"),
+    QStringLiteral("ую"), QStringLiteral("юю"),
+    QStringLiteral("ом"), QStringLiteral("ем"),
+    QStringLiteral("а"), QStringLiteral("я"),
+    QStringLiteral("о"), QStringLiteral("е"),
+    QStringLiteral("и"), QStringLiteral("ы"),
+    QStringLiteral("у"), QStringLiteral("ю"),
+    QStringLiteral("ь"), QStringLiteral("й"),
+};
+
+static QString russianStem(const QString &word)
+{
+    if (word.size() < 4)
+        return word;
+    for (const QString &e : kRuEndings) {
+        if (word.size() - e.size() >= 3 && word.endsWith(e, Qt::CaseInsensitive))
+            return word.left(word.size() - e.size());
+    }
+    return word;
+}
+
+// Одно слово запроса против одного слова названия: точное включение
+// (как раньше) либо совпадение стемов (окончания не важны, регистр — тоже).
+static bool queryWordMatches(const QString &queryWord, const QString &nameToken)
+{
+    if (nameToken.contains(queryWord, Qt::CaseInsensitive))
+        return true;
+    const QString a = russianStem(queryWord);
+    const QString b = russianStem(nameToken);
+    if (a.size() < 3 || b.size() < 3)
+        return false;
+    return a.compare(b, Qt::CaseInsensitive) == 0
+        || b.startsWith(a, Qt::CaseInsensitive)
+        || a.startsWith(b, Qt::CaseInsensitive);
+}
+
+// Имя проекта подходит под фильтр: каждое введённое слово (даже с любым
+// окончанием) должно найтись среди слов названия. Пустой фильтр — подходит всё.
+static bool nameMatchesFilter(const QString &name, const QString &filter)
+{
+    const QStringList words = filter.split(QLatin1Char(' '), Qt::SkipEmptyParts);
+    if (words.isEmpty())
+        return true;
+
+    // Слова названия: отделяем пробелами и типографскими разделителями.
+    QString normalized = name;
+    normalized.replace(QLatin1Char('-'), QLatin1Char(' '));
+    normalized.replace(QLatin1Char('_'), QLatin1Char(' '));
+    normalized.replace(QLatin1Char('.'), QLatin1Char(' '));
+    const QStringList tokens = normalized.split(QLatin1Char(' '), Qt::SkipEmptyParts);
+
+    for (const QString &w : words) {
+        bool ok = name.contains(w, Qt::CaseInsensitive); // подстрока всего названия — как раньше
+        if (!ok) {
+            for (const QString &t : tokens) {
+                if (queryWordMatches(w, t)) {
+                    ok = true;
+                    break;
+                }
+            }
+        }
+        if (!ok)
+            return false;
+    }
+    return true;
+}
+
 // Режимы движка: 0 — opencode v1, 1 — oc2 v2 (--standalone), 2 — oc2 v2 (без --standalone).
 static const int kEngineV1 = 0;
 static const int kEngineV2 = 1;
