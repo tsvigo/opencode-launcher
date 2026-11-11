@@ -230,6 +230,13 @@ int main(int argc, char *argv[])
         updateModeText();
     });
 
+    // Поле поиска: по мере ввода остаются только совпадающие кнопки.
+    auto *searchEdit = new QLineEdit(&window);
+    searchEdit->setPlaceholderText(QStringLiteral("Поиск проекта..."));
+    searchEdit->setClearButtonEnabled(true);
+    searchEdit->setMinimumHeight(32);
+    outerLayout->addWidget(searchEdit);
+
     auto *scrollArea = new QScrollArea(&window);
     scrollArea->setWidgetResizable(true);
 
