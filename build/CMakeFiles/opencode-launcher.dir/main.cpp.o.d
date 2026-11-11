@@ -362,6 +362,12 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \

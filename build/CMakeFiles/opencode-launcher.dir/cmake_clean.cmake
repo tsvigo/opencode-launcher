@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/opencode-launcher.dir/link.d"
   "CMakeFiles/opencode-launcher_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/opencode-launcher_autogen.dir/ParseCache.txt"
   "opencode-launcher_autogen"

@@ -408,6 +408,7 @@
 #define __FLT32_DIG__ 6
 #define __UINT64_TYPE__ long unsigned int
 #define __UINT32_C(c) c ## U
+#define ARCHITECTURE_ID "x86_64"
 #define __cpp_alias_templates 200704L
 #define __FLT_DENORM_MIN__ 1.40129846432481707092372958328991613e-45F
 #define __FLT128_IS_IEC_60559__ 1

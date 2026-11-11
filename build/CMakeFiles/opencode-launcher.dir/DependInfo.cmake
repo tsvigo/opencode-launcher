@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "opencode-launcher_autogen/timestamp" "custom" "opencode-launcher_autogen/deps"
   "/home/v/projects/запуск проектов опенкода по кнопке/main.cpp" "CMakeFiles/opencode-launcher.dir/main.cpp.o" "gcc" "CMakeFiles/opencode-launcher.dir/main.cpp.o.d"
   "/home/v/projects/запуск проектов опенкода по кнопке/build/opencode-launcher_autogen/mocs_compilation.cpp" "CMakeFiles/opencode-launcher.dir/opencode-launcher_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/opencode-launcher.dir/opencode-launcher_autogen/mocs_compilation.cpp.o.d"
+  "" "opencode-launcher" "gcc" "CMakeFiles/opencode-launcher.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
