@@ -45,86 +45,24 @@ opencode-launcher_autogen/timestamp: /home/v/projects/запуск\ проект
   /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeCXXCompiler.cmake.in \
-  /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp \
   /usr/share/cmake-4.2/Modules/CMakeCXXInformation.cmake \
   /usr/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeCompilerIdDetection.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeDetermineCompilerSupport.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake \
   /usr/share/cmake-4.2/Modules/CMakeGenericSystem.cmake \
   /usr/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake \
   /usr/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake \
   /usr/share/cmake-4.2/Modules/CMakeParseArguments.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeParseImplicitIncludeInfo.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeParseImplicitLinkInfo.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeParseLibraryArchitecture.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeSystem.cmake.in \
   /usr/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeTestCompilerCommon.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Borland-DetermineCompiler.cmake \
   /usr/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Cray-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Diab-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/GHS-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /usr/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake \
   /usr/share/cmake-4.2/Modules/Compiler/GNU.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/IAR-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Intel-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/PGI-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Renesas-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/SCO-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/TI-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/TIClang-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /usr/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake \
   /usr/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake \
-  /usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake \
-  /usr/share/cmake-4.2/Modules/Internal/CMakeInspectCXXLinker.cmake \
-  /usr/share/cmake-4.2/Modules/Internal/FeatureTesting.cmake \
   /usr/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake \
   /usr/share/cmake-4.2/Modules/Linker/GNU.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-CXX.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU.cmake \
-  /usr/share/cmake-4.2/Modules/Platform/Linux-Determine-CXX.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linux-GNU-CXX.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake \
@@ -132,260 +70,136 @@ opencode-launcher_autogen/timestamp: /home/v/projects/запуск\ проект
   /usr/share/cmake-4.2/Modules/Platform/UnixPaths.cmake
 
 
-/usr/share/cmake-4.2/Modules/Platform/UnixPaths.cmake:
+/usr/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake:
 
-/usr/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake:
+/usr/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake:
 
-/usr/share/cmake-4.2/Modules/CMakeGenericSystem.cmake:
+/usr/share/cmake-4.2/Modules/Platform/Linux-GNU-CXX.cmake:
 
-/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:
+/usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU.cmake:
 
-/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:
+/usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-CXX.cmake:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake:
+/usr/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake:
 
-/usr/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake:
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake:
 
-/usr/share/cmake-4.2/Modules/CMakeParseImplicitLinkInfo.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp:
-
-/usr/share/cmake-4.2/Modules/CMakeCXXCompiler.cmake.in:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake:
-
-/usr/share/cmake-4.2/Modules/Linker/GNU.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerSupport.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeCompilerIdDetection.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/SCO-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/TI-DetermineCompiler.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake:
-
-CMakeFiles/4.2.3/CMakeSystem.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake:
-
-/home/v/projects/запуск\ проектов\ опенкода\ по\ кнопке/main.cpp:
-
-/usr/share/cmake-4.2/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
-
-/usr/bin/cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/ADSP-DetermineCompiler.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Internal/CMakeInspectCXXLinker.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake:
-
-/usr/share/cmake-4.2/Modules/Platform/Linux-Determine-CXX.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake:
-
-/usr/share/cmake-4.2/Modules/Platform/Linux.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Renesas-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeParseImplicitIncludeInfo.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake:
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake:
 
-/usr/share/cmake-4.2/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake:
 
-/usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake:
+
+/usr/share/cmake-4.2/Modules/Compiler/GNU.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake:
+
+/usr/share/cmake-4.2/Modules/Platform/Linux.cmake:
+
+/usr/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake:
+
+/usr/share/cmake-4.2/Modules/CMakeParseArguments.cmake:
+
+/home/v/projects/запуск\ проектов\ опенкода\ по\ кнопке/CMakeLists.txt:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake:
+
+CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
+
+/usr/bin/cmake:
+
+/usr/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:
+
+/home/v/projects/запуск\ проектов\ опенкода\ по\ кнопке/main.cpp:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake:
+
+CMakeFiles/4.2.3/CMakeSystem.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake:
+
+/usr/share/cmake-4.2/Modules/Platform/UnixPaths.cmake:
+
+/usr/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake:
+
+/usr/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:
+
+/usr/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake:
+
+/usr/share/cmake-4.2/Modules/Linker/GNU.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake:
+
+/usr/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake:
+
+/usr/share/cmake-4.2/Modules/CMakeGenericSystem.cmake:
+
+/usr/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake:
 
 /usr/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake:
 
-/usr/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeParseArguments.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeParseLibraryArchitecture.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeSystem.cmake.in:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeTestCompilerCommon.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
-
 /usr/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/GHS-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Cray-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Diab-DetermineCompiler.cmake:
 
 /usr/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Intel-DetermineCompiler.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake:
-
 /usr/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/PGI-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Internal/FeatureTesting.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
-
-CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/GNU.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/IAR-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Borland-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/MSVC-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Platform/Linux-GNU-CXX.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/PathScale-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/TIClang-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Watcom-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake:
-
-/usr/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Tasking-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-CXX.cmake:
-
-/usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU.cmake:
-
-/home/v/projects/запуск\ проектов\ опенкода\ по\ кнопке/CMakeLists.txt:
-
-/usr/share/cmake-4.2/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:
-
-/usr/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake:
