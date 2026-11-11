@@ -370,6 +370,11 @@ int main(int argc, char *argv[])
             rebuild();
         });
 
+    // Динамический поиск: перестраиваем список по мере ввода.
+    QObject::connect(searchEdit, &QLineEdit::textChanged, [&](const QString &) {
+        rebuild();
+    });
+
     rebuild();
 
     window.show();
