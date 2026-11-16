@@ -275,9 +275,7 @@ int main(int argc, char *argv[])
             QLocalSocket probe;
             probe.connectToServer(instanceKey);
             if (probe.waitForConnected(200)) {
-                probe.write("show");
-                probe.flush();
-                probe.waitForBytesWritten(300);
+                // Само подключение — и есть команда «покажи окно».
                 break;
             }
             QThread::msleep(50); // первый экземпляр мог ещё не начать слушать
