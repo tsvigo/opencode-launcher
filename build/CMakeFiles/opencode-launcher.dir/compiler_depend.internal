@@ -97,6 +97,7 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o
  /usr/include/c++/13/bits/allocated_ptr.h
  /usr/include/c++/13/bits/allocator.h
  /usr/include/c++/13/bits/atomic_base.h
+ /usr/include/c++/13/bits/atomic_futex.h
  /usr/include/c++/13/bits/atomic_lockfree_defines.h
  /usr/include/c++/13/bits/basic_string.h
  /usr/include/c++/13/bits/basic_string.tcc
@@ -142,6 +143,8 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o
  /usr/include/c++/13/bits/shared_ptr_base.h
  /usr/include/c++/13/bits/std_abs.h
  /usr/include/c++/13/bits/std_function.h
+ /usr/include/c++/13/bits/std_mutex.h
+ /usr/include/c++/13/bits/std_thread.h
  /usr/include/c++/13/bits/stl_algo.h
  /usr/include/c++/13/bits/stl_algobase.h
  /usr/include/c++/13/bits/stl_bvector.h
@@ -168,6 +171,7 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o
  /usr/include/c++/13/bits/string_view.tcc
  /usr/include/c++/13/bits/stringfwd.h
  /usr/include/c++/13/bits/uniform_int_dist.h
+ /usr/include/c++/13/bits/unique_lock.h
  /usr/include/c++/13/bits/unique_ptr.h
  /usr/include/c++/13/bits/unordered_map.h
  /usr/include/c++/13/bits/uses_allocator.h
@@ -179,6 +183,7 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o
  /usr/include/c++/13/chrono
  /usr/include/c++/13/clocale
  /usr/include/c++/13/compare
+ /usr/include/c++/13/condition_variable
  /usr/include/c++/13/cstddef
  /usr/include/c++/13/cstdint
  /usr/include/c++/13/cstdio
@@ -196,6 +201,7 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o
  /usr/include/c++/13/ext/string_conversions.h
  /usr/include/c++/13/ext/type_traits.h
  /usr/include/c++/13/functional
+ /usr/include/c++/13/future
  /usr/include/c++/13/initializer_list
  /usr/include/c++/13/iosfwd
  /usr/include/c++/13/iterator
@@ -203,6 +209,7 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o
  /usr/include/c++/13/list
  /usr/include/c++/13/map
  /usr/include/c++/13/memory
+ /usr/include/c++/13/mutex
  /usr/include/c++/13/new
  /usr/include/c++/13/numeric
  /usr/include/c++/13/pstl/execution_defs.h
@@ -332,6 +339,7 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileInfo
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QLockFile
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QRect
@@ -339,6 +347,7 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSize
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSizeF
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStandardPaths
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -352,11 +361,15 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdeadlinetimer.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qelapsedtimer.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
@@ -372,6 +385,7 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qlockfile.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h
@@ -391,6 +405,7 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h
@@ -406,6 +421,8 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
@@ -444,6 +461,13 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QLocalServer
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QLocalSocket
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qabstractsocket.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qlocalserver.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qlocalsocket.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
@@ -514,6 +538,7 @@ opencode-launcher
  /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0
  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
  /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
+ /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.13
  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
  /usr/lib/x86_64-linux-gnu/libX11.so.6
  /usr/lib/x86_64-linux-gnu/libXau.so.6
@@ -524,20 +549,27 @@ opencode-launcher
  /usr/lib/x86_64-linux-gnu/libbz2.so.1.0
  /usr/lib/x86_64-linux-gnu/libc.so.6
  /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+ /usr/lib/x86_64-linux-gnu/libcom_err.so.2
  /usr/lib/x86_64-linux-gnu/libdouble-conversion.so.3
  /usr/lib/x86_64-linux-gnu/libfreetype.so.6
  /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
  /usr/lib/x86_64-linux-gnu/libgraphite2.so.3
+ /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2
  /usr/lib/x86_64-linux-gnu/libharfbuzz.so.0
  /usr/lib/x86_64-linux-gnu/libicudata.so.74
  /usr/lib/x86_64-linux-gnu/libicui18n.so.74
  /usr/lib/x86_64-linux-gnu/libicuuc.so.74
+ /usr/lib/x86_64-linux-gnu/libk5crypto.so.3
+ /usr/lib/x86_64-linux-gnu/libkeyutils.so.1
+ /usr/lib/x86_64-linux-gnu/libkrb5.so.3
+ /usr/lib/x86_64-linux-gnu/libkrb5support.so.0
  /usr/lib/x86_64-linux-gnu/libm.so.6
  /usr/lib/x86_64-linux-gnu/libmd4c.so.0
  /usr/lib/x86_64-linux-gnu/libmvec.so.1
  /usr/lib/x86_64-linux-gnu/libpcre2-16.so.0
  /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0
  /usr/lib/x86_64-linux-gnu/libpng16.so.16
+ /usr/lib/x86_64-linux-gnu/libresolv.so.2
  /usr/lib/x86_64-linux-gnu/libxcb.so.1
  /usr/lib/x86_64-linux-gnu/libz.so.1
  /usr/lib/x86_64-linux-gnu/libzstd.so.1

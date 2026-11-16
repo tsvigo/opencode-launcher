@@ -41,6 +41,11 @@ opencode-launcher_autogen/timestamp: /home/v/projects/запуск\ проект
   /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
@@ -70,8 +75,6 @@ opencode-launcher_autogen/timestamp: /home/v/projects/запуск\ проект
   /usr/share/cmake-4.2/Modules/Platform/UnixPaths.cmake
 
 
-/usr/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake:
-
 /usr/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake:
 
 /usr/share/cmake-4.2/Modules/Platform/Linux-GNU-CXX.cmake:
@@ -81,6 +84,16 @@ opencode-launcher_autogen/timestamp: /home/v/projects/запуск\ проект
 /usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-CXX.cmake:
 
 /usr/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake:
+
+/usr/share/cmake-4.2/Modules/Platform/Linux.cmake:
+
+/usr/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake:
+
+/usr/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake:
+
+/usr/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake:
+
+/usr/share/cmake-4.2/Modules/Compiler/GNU.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake:
 
@@ -92,8 +105,6 @@ opencode-launcher_autogen/timestamp: /home/v/projects/запуск\ проект
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake:
 
-/usr/share/cmake-4.2/Modules/Compiler/GNU.cmake:
-
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake:
@@ -102,17 +113,13 @@ opencode-launcher_autogen/timestamp: /home/v/projects/запуск\ проект
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake:
 
-/usr/share/cmake-4.2/Modules/Platform/Linux.cmake:
-
-/usr/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake:
-
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake:
 
@@ -158,6 +165,8 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake:
 
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake:
+
 /usr/share/cmake-4.2/Modules/Platform/UnixPaths.cmake:
 
 /usr/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake:
@@ -178,9 +187,19 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:
+/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake:
 
-/usr/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake:
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake:
+
+/usr/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake:
+
+/usr/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:
 
 /usr/share/cmake-4.2/Modules/Linker/GNU.cmake:
 
@@ -192,14 +211,10 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 
 /usr/share/cmake-4.2/Modules/CMakeGenericSystem.cmake:
 
-/usr/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake:
-
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake:
 
 /usr/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake:
 
 /usr/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
-
-/usr/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake:
 
 /usr/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake:
