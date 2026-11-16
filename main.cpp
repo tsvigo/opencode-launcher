@@ -257,8 +257,54 @@ int main(int argc, char *argv[])
     QApplication app(argc, argv);
     app.setApplicationName(QStringLiteral("opencode-launcher"));
 
+    // -----------------------------------------------------------------
+    // Один экземпляр: замок на время жизни процесса.
+    // Второй запуск не открывает новое окно, а просит первое подняться.
+    // -----------------------------------------------------------------
+    QString lockDir = QStandardPaths::writableLocation(QStandardPaths::RuntimeLocation);
+    if (lockDir.isEmpty())
+        lockDir = QStandardPaths::writableLocation(QStandardPaths::TempLocation);
+    QDir().mkpath(lockDir);
+    QLockFile instanceLock(lockDir + QStringLiteral("/opencode-launcher.lock"));
+
+    const QString instanceKey = QStringLiteral("opencode-launcher-instance");
+    if (!instanceLock.tryLock(0)) {
+        // Замок занят — программа уже работает. Стучимся в её локальный
+        // сокет: любое подключение означает «покажи окно на переднем плане».
+        for (int attempt = 0; attempt < 20; ++attempt) {
+            QLocalSocket probe;
+            probe.connectToServer(instanceKey);
+            if (probe.waitForConnected(200)) {
+                probe.write("show");
+                probe.flush();
+                probe.waitForBytesWritten(300);
+                break;
+            }
+            QThread::msleep(50); // первый экземпляр мог ещё не начать слушать
+        }
+        return 0;
+    }
+
     QWidget window;
     window.setWindowTitle(QStringLiteral("Проекты opencode"));
+
+    // Слушаем повторные запуски: поднимаем и активируем это окно.
+    QLocalServer instanceServer;
+    QObject::connect(&instanceServer, &QLocalServer::newConnection, &app,
+                     [&instanceServer, &window]() {
+        while (QLocalSocket *sock = instanceServer.nextPendingConnection()) {
+            QObject::connect(sock, &QLocalSocket::disconnected,
+                             sock, &QLocalSocket::deleteLater);
+            sock->disconnectFromServer();
+        }
+        window.show();
+        if (window.windowState() & Qt::WindowMinimized)
+            window.setWindowState(window.windowState() & ~Qt::WindowMinimized);
+        window.raise();
+        window.activateWindow();
+    });
+    QLocalServer::removeServer(instanceKey); // хвост от прежнего падения
+    instanceServer.listen(instanceKey);
 
     // Высота окна = высоте доступной области экрана.
     QScreen *screen = QApplication::primaryScreen();
