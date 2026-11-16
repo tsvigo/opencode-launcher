@@ -73,7 +73,12 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
-		"/usr/share/cmake-4.2/Modules/CMakeParseArguments.cmake"
+		"/usr/share/cmake-4.2/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/v/projects/\u0437\u0430\u043f\u0443\u0441\u043a \u043f\u0440\u043e\u0435\u043a\u0442\u043e\u0432 \u043e\u043f\u0435\u043d\u043a\u043e\u0434\u0430 \u043f\u043e \u043a\u043d\u043e\u043f\u043a\u0435",
 	"CROSS_CONFIG" : false,
@@ -83,7 +88,14 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/v/projects/\u0437\u0430\u043f\u0443\u0441\u043a \u043f\u0440\u043e\u0435\u043a\u0442\u043e\u0432 \u043e\u043f\u0435\u043d\u043a\u043e\u0434\u0430 \u043f\u043e \u043a\u043d\u043e\u043f\u043a\u0435/build/opencode-launcher_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/v/projects/\u0437\u0430\u043f\u0443\u0441\u043a \u043f\u0440\u043e\u0435\u043a\u0442\u043e\u0432 \u043e\u043f\u0435\u043d\u043a\u043e\u0434\u0430 \u043f\u043e \u043a\u043d\u043e\u043f\u043a\u0435/build/opencode-launcher_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB"
+	],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -98,6 +110,7 @@
 		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtNetwork",
 		"/usr/include/c++/13",
 		"/usr/include/x86_64-linux-gnu/c++/13",
 		"/usr/include/c++/13/backward",

@@ -372,4 +372,27 @@ CMakeFiles/opencode-launcher.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDateTime \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QLockFile \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qlockfile.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QLocalServer \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qlocalserver.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qabstractsocket.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QLocalSocket \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qlocalsocket.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdeadlinetimer.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qelapsedtimer.h \
+ /usr/include/c++/13/future /usr/include/c++/13/mutex \
+ /usr/include/c++/13/bits/std_mutex.h \
+ /usr/include/c++/13/bits/unique_lock.h \
+ /usr/include/c++/13/condition_variable \
+ /usr/include/c++/13/bits/atomic_futex.h \
+ /usr/include/c++/13/bits/std_thread.h

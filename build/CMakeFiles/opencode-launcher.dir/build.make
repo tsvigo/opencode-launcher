@@ -119,6 +119,7 @@ opencode-launcher: CMakeFiles/opencode-launcher.dir/main.cpp.o
 opencode-launcher: CMakeFiles/opencode-launcher.dir/build.make
 opencode-launcher: CMakeFiles/opencode-launcher.dir/compiler_depend.ts
 opencode-launcher: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
+opencode-launcher: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.13
 opencode-launcher: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
 opencode-launcher: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
 opencode-launcher: CMakeFiles/opencode-launcher.dir/link.txt
