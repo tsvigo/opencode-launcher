@@ -26,6 +26,10 @@
 #include <QHBoxLayout>
 #include <QSettings>
 #include <QDateTime>
+#include <QLockFile>
+#include <QLocalServer>
+#include <QLocalSocket>
+#include <QThread>
 #include <functional>
 #include <algorithm>
 
