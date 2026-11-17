@@ -3316,3 +3316,321 @@ events:
       CMAKE_SYSTEM_LIBRARY_PATH:
         - "/usr/lib/X11"
 ...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:22 (find_library)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:67 (_qt5gui_find_extra_libs)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake:244 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:111 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "Qt5Gui_EGL_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "EGL"
+    candidate_directories:
+      - "/home/v/.cargo/bin/"
+      - "/home/v/.local/bin/"
+      - "/home/v/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/v/.dotnet/tools/"
+      - "/home/v/.lmstudio/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/v/.cargo/bin/"
+      - "/home/v/.local/bin/"
+      - "/home/v/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/v/.dotnet/tools/"
+      - "/home/v/.lmstudio/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+    found: "/usr/lib/x86_64-linux-gnu/libEGL.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/v/.cargo/bin"
+        - "/home/v/.local/bin"
+        - "/home/v/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/v/.dotnet/tools"
+        - "/home/v/.lmstudio/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:50 (find_library)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:67 (_qt5gui_find_extra_libs)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake:244 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:111 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "Qt5Gui_EGL_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "EGLd"
+    candidate_directories:
+      - "/home/v/projects/\u0437\u0430\u043f\u0443\u0441\u043a \u043f\u0440\u043e\u0435\u043a\u0442\u043e\u0432 \u043e\u043f\u0435\u043d\u043a\u043e\u0434\u0430 \u043f\u043e \u043a\u043d\u043e\u043f\u043a\u0435/"
+    searched_directories:
+      - "/home/v/projects/\u0437\u0430\u043f\u0443\u0441\u043a \u043f\u0440\u043e\u0435\u043a\u0442\u043e\u0432 \u043e\u043f\u0435\u043d\u043a\u043e\u0434\u0430 \u043f\u043e \u043a\u043d\u043e\u043f\u043a\u0435/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/v/.cargo/bin"
+        - "/home/v/.local/bin"
+        - "/home/v/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/v/.dotnet/tools"
+        - "/home/v/.lmstudio/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:22 (find_library)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:69 (_qt5gui_find_extra_libs)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake:244 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:111 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "Qt5Gui_GL_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GL"
+    candidate_directories:
+      - "/home/v/.cargo/bin/"
+      - "/home/v/.local/bin/"
+      - "/home/v/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/v/.dotnet/tools/"
+      - "/home/v/.lmstudio/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/v/.cargo/bin/"
+      - "/home/v/.local/bin/"
+      - "/home/v/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/v/.dotnet/tools/"
+      - "/home/v/.lmstudio/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+    found: "/usr/lib/x86_64-linux-gnu/libGL.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/v/.cargo/bin"
+        - "/home/v/.local/bin"
+        - "/home/v/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/v/.dotnet/tools"
+        - "/home/v/.lmstudio/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:50 (find_library)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:69 (_qt5gui_find_extra_libs)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake:244 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:111 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "Qt5Gui_GL_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GLd"
+    candidate_directories:
+      - "/home/v/projects/\u0437\u0430\u043f\u0443\u0441\u043a \u043f\u0440\u043e\u0435\u043a\u0442\u043e\u0432 \u043e\u043f\u0435\u043d\u043a\u043e\u0434\u0430 \u043f\u043e \u043a\u043d\u043e\u043f\u043a\u0435/"
+    searched_directories:
+      - "/home/v/projects/\u0437\u0430\u043f\u0443\u0441\u043a \u043f\u0440\u043e\u0435\u043a\u0442\u043e\u0432 \u043e\u043f\u0435\u043d\u043a\u043e\u0434\u0430 \u043f\u043e \u043a\u043d\u043e\u043f\u043a\u0435/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/v/.cargo/bin"
+        - "/home/v/.local/bin"
+        - "/home/v/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/home/v/.dotnet/tools"
+        - "/home/v/.lmstudio/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+...
