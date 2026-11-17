@@ -369,6 +369,13 @@ int main(int argc, char *argv[])
     searchEdit->setPlaceholderText(QStringLiteral("Поиск проекта..."));
     searchEdit->setClearButtonEnabled(true);
     searchEdit->setMinimumHeight(32);
+    // Тёмно-зелёный фон поля поиска + светлый текст для читаемости.
+    QPalette searchPalette = searchEdit->palette();
+    searchPalette.setColor(QPalette::Base, QColor(20, 64, 44));            // #14402C
+    searchPalette.setColor(QPalette::Text, QColor(232, 245, 236));         // #E8F5EC
+    searchPalette.setColor(QPalette::PlaceholderText, QColor(157, 191, 169)); // #9DBFA9
+    searchEdit->setPalette(searchPalette);
+    searchEdit->setAutoFillBackground(true);
     outerLayout->addWidget(searchEdit);
 
     auto *scrollArea = new QScrollArea(&window);
